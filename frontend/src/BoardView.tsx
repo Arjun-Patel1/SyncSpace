@@ -3,10 +3,11 @@ import { useParams } from 'react-router-dom';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 import { io } from 'socket.io-client';
 import api from './api';
+// ⚡ ONLY keep the icons actually used in the Task Cards/Lists below
 import { Plus, Trash2, Edit2, X, AlertCircle, CheckCircle2, Clock } from 'lucide-react';
 
 import ChatSidebar from './components/ChatSidebar';
-import BoardHeader from './components/BoardHeader'; 
+import BoardHeader from './components/BoardHeader';
 
 // Socket setup
 const SOCKET_URL = import.meta.env.VITE_API_URL 
