@@ -1,5 +1,6 @@
+// ✅ THE FIX: Just remove 'Link'
 import { useEffect, useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; 
 import api from './api';
 import { LayoutDashboard, Plus, X, LogOut, Edit2, Trash2, AlertCircle, UserCircle } from 'lucide-react';
 
